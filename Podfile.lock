@@ -1,0 +1,119 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Ashton (1.0.3)
+  - BRPickerView (2.2.1)
+  - Bugly (2.5.0)
+  - EVNCustomSearchBar (0.1.2)
+  - FacebookSDK (5.2.1):
+    - FacebookSDK/CoreKit (= 5.2.1)
+    - FacebookSDK/MarketingKit (= 5.2.1)
+  - FacebookSDK/CoreKit (5.2.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookSDK/MarketingKit (5.2.1):
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit (~> 5.0)
+  - FBSDKCoreKit (5.0.0):
+    - FBSDKCoreKit/Basics (= 5.0.0)
+    - FBSDKCoreKit/Core (= 5.0.0)
+  - FBSDKCoreKit/Basics (5.0.0)
+  - FBSDKCoreKit/Core (5.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKMarketingKit (5.0.0):
+    - FBSDKCoreKit (= 5.0.0)
+  - iCarousel (1.8.3)
+  - mob_sharesdk/ShareSDK (4.2.6):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Facebook (4.2.6):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/GooglePlus (4.2.6):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.3)
+  - Realm (3.17.0):
+    - Realm/Headers (= 3.17.0)
+  - Realm/Headers (3.17.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SocketRocket (0.5.1)
+  - WTAuthorizationTool (0.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZLPhotoBrowser (3.0.5):
+    - SDWebImage (~> 5.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.0)
+  - Ashton
+  - BRPickerView
+  - Bugly
+  - EVNCustomSearchBar (~> 0.1.2)
+  - FacebookSDK
+  - iCarousel
+  - mob_sharesdk/ShareSDKPlatforms/Facebook
+  - mob_sharesdk/ShareSDKPlatforms/GooglePlus
+  - Realm
+  - SDWebImage
+  - SocketRocket
+  - WTAuthorizationTool
+  - YYKit
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Ashton
+    - BRPickerView
+    - Bugly
+    - EVNCustomSearchBar
+    - FacebookSDK
+    - FBSDKCoreKit
+    - FBSDKMarketingKit
+    - iCarousel
+    - mob_sharesdk
+    - MOBFoundation
+    - Realm
+    - SDWebImage
+    - SocketRocket
+    - WTAuthorizationTool
+    - YYKit
+    - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Ashton: f9faf87b13b3e41bafb88d236080a8a70ce8a5a8
+  BRPickerView: 0590a8c5de9bd98c6b4e4f117a3dff6de287d5b2
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  EVNCustomSearchBar: 038e0b7f9085ade5c70b4d85a4849c7fd9ed6a4d
+  FacebookSDK: abc145ca77570c559bcd1472184122ce3245f407
+  FBSDKCoreKit: ba361d4a9d4dc29ff218822b849b22d4f869c7bb
+  FBSDKMarketingKit: 4b8d3c6b53b5397cd0b6ba39b1e7034bc9f3a45e
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  mob_sharesdk: e993f357a6f1581a956aea16ea142c9de0425bf7
+  MOBFoundation: 246159a97f5e6c8a271b674dd885dc4b0953e45e
+  Realm: b30db41ff34fc858ffc25ba8d44a82c164e7ccd0
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WTAuthorizationTool: fcc87c821a2ed34c3de811669ffe20fb91ff7b0a
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZLPhotoBrowser: e1c816eed2aebd9d570dc6de1cff19256347e8d6
+
+PODFILE CHECKSUM: 8df4dd608c84efcbaa53ff800d5a48a113e19c21
+
+COCOAPODS: 1.7.2

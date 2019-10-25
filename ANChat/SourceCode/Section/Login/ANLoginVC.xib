@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ANLoginVC">
+            <connections>
+                <outlet property="loginView" destination="Ves-j3-tLm" id="aC8-pj-Eln"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="OrV-Sl-uqF">
+                    <rect key="frame" x="147" y="214" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="9JI-MS-VTt"/>
+                        <constraint firstAttribute="width" constant="120" id="mrk-OP-cgg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LoveChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9y-fQ-KmW">
+                    <rect key="frame" x="168" y="354" width="78.5" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzR-p6-Jja">
+                    <rect key="frame" x="109" y="815" width="196.5" height="12"/>
+                    <attributedString key="attributedText">
+                        <fragment content="登录即默认同意">
+                            <attributes>
+                                <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="服务条款">
+                            <attributes>
+                                <color key="NSColor" red="0.58405786752700806" green="0.30133050680160522" blue="0.96790927648544312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="和">
+                            <attributes>
+                                <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="隐私政策">
+                            <attributes>
+                                <color key="NSColor" red="0.58405786752700806" green="0.30133050680160522" blue="0.96790927648544312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiB-ff-2Vd">
+                    <rect key="frame" x="100" y="827" width="214" height="15"/>
+                    <attributedString key="attributedText">
+                        <fragment content="我们不会就此向Facebook发布任何内容">
+                            <attributes>
+                                <font key="NSFont" metaFont="cellTitle"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ves-j3-tLm">
+                    <rect key="frame" x="72" y="745" width="270" height="50"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="go" translatesAutoresizingMaskIntoConstraints="NO" id="cfq-53-aB3">
+                            <rect key="frame" x="190.5" y="18" width="14.5" height="14"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fackbook" translatesAutoresizingMaskIntoConstraints="NO" id="O5c-1g-bBV">
+                            <rect key="frame" x="10" y="10" width="30" height="30"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="facebook 登陆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="per-hv-CeZ">
+                            <rect key="frame" x="67" y="14.5" width="118.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1495805979" green="0.31877136230000003" blue="0.66263931990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="cfq-53-aB3" firstAttribute="leading" secondItem="per-hv-CeZ" secondAttribute="trailing" constant="5" id="3t0-dJ-Opw"/>
+                        <constraint firstItem="per-hv-CeZ" firstAttribute="centerY" secondItem="Ves-j3-tLm" secondAttribute="centerY" id="Lpr-cX-sBl"/>
+                        <constraint firstItem="cfq-53-aB3" firstAttribute="centerY" secondItem="per-hv-CeZ" secondAttribute="centerY" id="OiK-PI-QaR"/>
+                        <constraint firstItem="O5c-1g-bBV" firstAttribute="leading" secondItem="Ves-j3-tLm" secondAttribute="leading" constant="10" id="TYC-HT-Cum"/>
+                        <constraint firstItem="O5c-1g-bBV" firstAttribute="centerY" secondItem="Ves-j3-tLm" secondAttribute="centerY" id="aEz-pg-BSY"/>
+                        <constraint firstAttribute="height" constant="50" id="chw-Ky-uqE"/>
+                        <constraint firstAttribute="width" constant="270" id="dnb-fJ-lIJ"/>
+                        <constraint firstItem="per-hv-CeZ" firstAttribute="leading" secondItem="O5c-1g-bBV" secondAttribute="trailing" constant="27" id="ons-Vy-9as"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JzR-p6-Jja" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="4kn-1x-PsT"/>
+                <constraint firstItem="FiB-ff-2Vd" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="D3X-ZW-3sB"/>
+                <constraint firstItem="Ves-j3-tLm" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="FcL-g4-Fe7"/>
+                <constraint firstItem="OrV-Sl-uqF" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="170" id="Hl0-Yy-XFr"/>
+                <constraint firstItem="OrV-Sl-uqF" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="VS7-2M-rHs"/>
+                <constraint firstItem="FiB-ff-2Vd" firstAttribute="top" secondItem="JzR-p6-Jja" secondAttribute="bottom" id="XoL-uE-qqA"/>
+                <constraint firstItem="Z9y-fQ-KmW" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="nhC-Ub-ehD"/>
+                <constraint firstItem="Z9y-fQ-KmW" firstAttribute="top" secondItem="OrV-Sl-uqF" secondAttribute="bottom" constant="20" id="rXi-mS-2Sm"/>
+                <constraint firstItem="JzR-p6-Jja" firstAttribute="top" secondItem="Ves-j3-tLm" secondAttribute="bottom" constant="20" id="sbv-SN-HCc"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="FiB-ff-2Vd" secondAttribute="bottom" constant="20" id="v8n-J1-Tue"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-75.362318840579718" y="126.5625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fackbook" width="30" height="30"/>
+        <image name="go" width="14.5" height="14"/>
+        <image name="logo" width="120" height="120"/>
+    </resources>
+</document>

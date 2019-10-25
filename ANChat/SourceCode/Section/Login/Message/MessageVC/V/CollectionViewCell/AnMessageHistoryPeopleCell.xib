@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AnMessageHistoryPeopleCell">
+            <rect key="frame" x="0.0" y="0.0" width="161" height="237"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="161" height="237"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="8bU-Kl-OKZ">
+                        <rect key="frame" x="0.0" y="0.0" width="161" height="237"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZ9-fS-YXH">
+                        <rect key="frame" x="0.0" y="0.0" width="161" height="237"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9UP-HN-Adl">
+                            <rect key="frame" x="0.0" y="0.0" width="161" height="237"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPC-iO-5jn">
+                                    <rect key="frame" x="0.0" y="215" width="161" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo" translatesAutoresizingMaskIntoConstraints="NO" id="su8-TZ-gHt">
+                                    <rect key="frame" x="67.5" y="103.5" width="26" height="30"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="su8-TZ-gHt" firstAttribute="centerY" secondItem="9UP-HN-Adl" secondAttribute="centerY" id="CAS-cM-6zi"/>
+                                <constraint firstItem="su8-TZ-gHt" firstAttribute="centerX" secondItem="9UP-HN-Adl" secondAttribute="centerX" id="aWP-Q8-GeE"/>
+                                <constraint firstAttribute="trailing" secondItem="FPC-iO-5jn" secondAttribute="trailing" id="dLD-bf-X6v"/>
+                                <constraint firstItem="FPC-iO-5jn" firstAttribute="leading" secondItem="9UP-HN-Adl" secondAttribute="leading" id="mVv-3k-tMa"/>
+                                <constraint firstAttribute="bottom" secondItem="FPC-iO-5jn" secondAttribute="bottom" constant="5" id="seP-Xg-mjv"/>
+                            </constraints>
+                        </view>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="iZ9-fS-YXH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="923-Pi-rOL"/>
+                <constraint firstItem="8bU-Kl-OKZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EEd-Fh-wgC"/>
+                <constraint firstItem="8bU-Kl-OKZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GB9-RA-7C4"/>
+                <constraint firstItem="iZ9-fS-YXH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ILn-rx-WKN"/>
+                <constraint firstAttribute="trailing" secondItem="iZ9-fS-YXH" secondAttribute="trailing" id="PvH-dF-ZxK"/>
+                <constraint firstAttribute="trailing" secondItem="8bU-Kl-OKZ" secondAttribute="trailing" id="dWP-VC-nOc"/>
+                <constraint firstAttribute="bottom" secondItem="iZ9-fS-YXH" secondAttribute="bottom" id="e4V-JU-dJ0"/>
+                <constraint firstAttribute="bottom" secondItem="8bU-Kl-OKZ" secondAttribute="bottom" id="eUC-wI-3WL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="161" height="237"/>
+            <connections>
+                <outlet property="imageV" destination="8bU-Kl-OKZ" id="TDO-zb-Pfi"/>
+                <outlet property="nickNameLbl" destination="FPC-iO-5jn" id="Zsa-Oa-uL2"/>
+                <outlet property="visualEffectView" destination="iZ9-fS-YXH" id="Huv-si-FNR"/>
+            </connections>
+            <point key="canvasLocation" x="212.31884057971016" y="161.71875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="suo" width="26" height="30"/>
+        <image name="timg" width="186.66667175292969" height="202.33332824707031"/>
+    </resources>
+</document>
